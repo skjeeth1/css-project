@@ -34,6 +34,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 120px;
+    gap: 50px;
 }
 
 .hero .text{
@@ -110,4 +111,61 @@
     align-items: center;
     text-align: center;
     color: #1F2937;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    color: #1F2937;
+    align-items: end;
+    background: #E5E7EB;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .author{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.bother{
+    margin: 100px;
+    background: #3882F6;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.bother .head{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bother .button{
+    padding:10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 800;
+}
+
+.footer{
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
 }
